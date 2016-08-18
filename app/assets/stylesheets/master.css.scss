@@ -36,6 +36,8 @@
   font-size: 25px;
   border-bottom: 1px soild #C690D4;
   border-top: 9px solid #222222;
+  font-family: 'league_gothicregular', sans-serif;
+  font-weight: bold;
 }
 
 hr {
@@ -45,5 +47,19 @@ hr {
 .header-message {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
-  color: D49095;
+  color: red;
+}
+
+h1 {
+  font-family: 'league_gothicitalic', cursive;
+}
+
+h2 {
+  font-family: 'league_gothicitalic', cursive;
+}
+
+.background-style{
+background-image: url(/assets/photo.jpeg);
+background-size: cover;
+padding-top: 26px;
 }
