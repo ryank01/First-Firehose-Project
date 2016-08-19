@@ -9,7 +9,8 @@
 <body>
 <header>
   <div class="col-xs-3">
-    <div class="circle">
+    <%= link_to root_path, class: 'logo' do %>
+      <div class="circle">
   <br />
   This
   <br />
@@ -17,6 +18,7 @@
   <br />
   Inspiration
     </div>
+    <% end %>
     <div class="header-message">
       Motivation is everywhere, just find it !
     </div>
@@ -25,7 +27,7 @@
     Splurting out unsolicited advice about entrepreneurship since 2016
   </div>
   <div class="col-xs-5 links">
-    <%= link_to 'Contribute', '#' %>
+    <%= link_to 'Contribute', new_quote_path %>
     <%= link_to 'About', '#' %>
   </div>
 </header>
@@ -40,7 +42,7 @@
 <div class="footer">
   <div class="container">
     <div class="col-xs-6">
-      <%= link_to "This isn't enough, I need more quotes","#", class: 'next-quote' %>
+      <%= link_to "This isn't enough, I need more quotes",root_path, class: 'next-quote' %>
     </div>
     <div class="col-xs-6 footer-blurb">
       Proudly hacked in New York, NY by <a href="http://thefirehoseproject.com">Ryan</a><br />
