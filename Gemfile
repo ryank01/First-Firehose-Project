@@ -13,6 +13,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 #include bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
+#include form
+gem 'simple_form'
 #Asset server
 gem 'sprockets', '2.11.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
