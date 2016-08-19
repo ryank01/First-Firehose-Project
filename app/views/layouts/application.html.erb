@@ -33,7 +33,23 @@
 
 <br class="clear" />
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "This isn't enough, I need more quotes","#", class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly hacked in New York, NY by <a href="http://thefirehoseproject.com">Ryan</a><br />
+      Want to build your own splurty web app - <a href="http://thefirehoseproject.com">Learn to code here</a>
+    </div>
+    <p class="text-muted">Place sticky footer content here.</p>
+  </div>
+</div>
+
 
 </body>
 </html>

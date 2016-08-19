@@ -34,8 +34,7 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px soild #C690D4;
-  border-top: 9px solid #222222;
+  border-bottom: 1px solid #C690D4;
   font-family: 'league_gothicregular', sans-serif;
   font-weight: bold;
 }
@@ -62,4 +61,17 @@ h2 {
 background-image: url(/assets/photo.jpeg);
 background-size: cover;
 padding-top: 26px;
+}
+
+.text-muted{
+  color: white;
+}
+
+.next-quote{
+  position: relative;
+  right: 13px;
+}
+
+.footer-blurb{
+  text-align: right;
 }
