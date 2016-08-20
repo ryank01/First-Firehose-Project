@@ -39,6 +39,12 @@
   text-decoration: none;
 }
 
+head {
+  background: url(photo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .modal-name{
   color: white;
 }
@@ -61,12 +67,6 @@ h2 {
   font-family: 'league_gothicitalic', cursive;
 }
 
-.background-style{
-background-image: url(/assets/photo.jpeg);
-background-size: cover;
-padding-top: 26px;
-}
-
 .text-muted{
   color: white;
 }
@@ -76,8 +76,10 @@ padding-top: 26px;
   right: 13px;
 }
 
-.footer-blurb{
-  text-align: right;
+@media (max-width: 750px){
+  .footer-blurb{
+    text-align: right;
+  }
 }
 
 .logo:hover{
@@ -92,5 +94,17 @@ padding-top: 26px;
 
 .about-text{
   padding-bottom: 100px;
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+}
+
+::selection {
+  background-color: #f84342;
 }
 
