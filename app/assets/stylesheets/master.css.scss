@@ -34,9 +34,13 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #C690D4;
   font-family: 'league_gothicregular', sans-serif;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.modal-name{
+  color: white;
 }
 
 hr {
